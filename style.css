@@ -1,0 +1,159 @@
+body {
+  font-family: "Noto Sans", sans-serif;
+  background-color: black;
+  color: white;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* HEADER */
+header {
+  background-image: url(batman.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 30px 50px 80px;
+}
+
+header h1 {
+  font-size: 100px;
+  margin: 50px;
+  text-align: center;
+  line-height: 1;
+}
+
+.outlined {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px;
+  color: #fff;
+}
+
+/* TEXT */
+h2 {
+  font-size: 40px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #bbbbbb;
+}
+
+/* FLEX */
+.flex-container {
+  display: flex;
+  gap: 30px;
+}
+
+header .flex-container {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.width-33 {
+  width: 33.33%;
+}
+
+.width-50 {
+  width: 50%;
+}
+
+/* ABOUT */
+.about {
+  width: 80%;
+  margin: auto;
+  padding: 50px 0;
+}
+
+.exp {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.exp-number {
+  font-size: 60px;
+  font-weight: 600;
+  margin: 20px 0 0 55px;
+  color: white;
+}
+
+.char {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* LINES */
+.line {
+  width: 150px;
+  height: 1px;
+  background-color: white;
+}
+
+.word {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.line-blue {
+  width: 50px;
+  height: 3px;
+  background-color: #00bfff;
+}
+
+.line-white {
+  width: 50px;
+  height: 3px;
+  background-color: #fff;
+}
+
+/* CASE */
+.case {
+  width: 70%;
+  margin: auto;
+  padding: 50px 0;
+}
+
+.case .flex-container {
+  gap: 60px;
+}
+
+/* BUTTON */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid rgb(105, 105, 105);
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-top: 30px;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: black;
+  transition: 0.3s;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.logo:hover {
+  opacity: 0.8;
+}
